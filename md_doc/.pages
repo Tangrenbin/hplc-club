@@ -1,0 +1,9 @@
+ignore:
+  - assets/
+  - image/
+
+nav:
+  - index.md
+  - 站点维护或投稿方法.md
+  - "... | *.md"
+  - ...
