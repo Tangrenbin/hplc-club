@@ -8,6 +8,8 @@ site_dir: site
 theme:
   name: material
   language: zh
+  icon:
+    logo: material/book-open-page-variant
   features:
     - navigation.expand
     - navigation.top
@@ -20,9 +22,14 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - tables
   - toc:
       permalink: true
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.superfences
+
+extra_css:
+  - assets/stylesheets/extra.css
