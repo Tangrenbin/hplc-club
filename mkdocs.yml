@@ -1,5 +1,5 @@
-site_name: HPLC Club Docs
-site_description: HPLC 技术交流社区文档站
+site_name: HPLC Club
+site_description: HPLC 技术交流社区
 repo_url: https://github.com/Tangrenbin/hplc-club
 repo_name: Tangrenbin/hplc-club
 docs_dir: md_doc
