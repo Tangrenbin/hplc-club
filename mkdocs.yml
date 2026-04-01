@@ -1,0 +1,28 @@
+site_name: HPLC Club Docs
+site_description: HPLC 技术交流社区文档站
+repo_url: https://github.com/Tangrenbin/hplc-club
+repo_name: Tangrenbin/hplc-club
+docs_dir: md_doc
+site_dir: site
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
