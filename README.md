@@ -2,6 +2,13 @@
 
 HPLC 技术交流社区。
 
+## 项目地址与在线站点
+
+- GitHub: https://github.com/Tangrenbin/hplc-club
+- Gitee: https://gitee.com/tangrenbin/hplc-club
+- 主站地址: https://hplc-club.990124.xyz/
+- Vercel 地址: https://hplc-club.vercel.app/
+
 这个仓库已经配置为使用 MkDocs 将 `md_doc/` 目录中的 Markdown 文件构建成静态网页，并通过 GitHub Actions 自动发布到 Vercel。
 
 ## 文档站本地预览

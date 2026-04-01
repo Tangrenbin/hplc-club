@@ -53,6 +53,14 @@ hide:
           <li>再按消息类型进入单篇协议详细内容</li>
           <li>随时参阅“版本差异”与“实现注意点”</li>
         </ul>
+
+        <h2>仓库与站点</h2>
+        <ul>
+          <li><a href="https://github.com/Tangrenbin/hplc-club">GitHub 仓库</a></li>
+          <li><a href="https://gitee.com/tangrenbin/hplc-club">Gitee 镜像</a></li>
+          <li><a href="https://hplc-club.990124.xyz/">主站访问域名</a></li>
+          <li><a href="https://hplc-club.vercel.app/">Vercel 访问域名</a></li>
+        </ul>
       </aside>
     </div>
   </section>
