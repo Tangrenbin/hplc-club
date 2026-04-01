@@ -25,10 +25,6 @@ hide:
 
         <div class="hero__meta">
           <div class="hero__stat">
-            <strong>25+</strong>
-            <span>协议文档页面</span>
-          </div>
-          <div class="hero__stat">
             <strong>MD</strong>
             <span>直接驱动站点更新</span>
           </div>
