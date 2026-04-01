@@ -3,5 +3,132 @@
   "framework": null,
   "buildCommand": "python3 -m pip install --upgrade pip && python3 -m pip install -r requirements-docs.txt && python3 -m mkdocs build --clean",
   "outputDirectory": "site",
+  "redirects": [
+    {
+      "source": "/00_message-manager/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/01_MMeAssocReq/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/02_MMeAssocCnf/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/03_MMeAssocInd/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/04_MMeAssocGatherInd/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/05_MMeChangeProxyReq/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/06_MMeChangeProxyCnf/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/07_MMeChangeProxyBitMapCnf/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/08_MMeLeaveInd/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/09_MMeDelayLeaveInd/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/10_MMeHeartBeatCheck/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/11_MMeDiscoverNodeList/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/12_MMeSuccessRateReport/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/13_MMeNetworkConflictReport/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/14_MMeZeroCrossNTBCollectInd/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/15_MMeZeroCrossNTBReport/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/16_MMeDiagnose/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/17_MMeRFChannelConflictReport/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/18_MMeRFDiscoverNodeList/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/19_MMeBitloadingTrainingResultUpdateReq/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/20_MMeBitloadingTrainingResultUpdateCnf/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/21_MMeRuSnrInfoNotify/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/22_MMeStationTeiListReq/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/23_MMeStationTeiListReply/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/24_MMeExtendedNetworkConflictReport/",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
   "trailingSlash": true
 }
