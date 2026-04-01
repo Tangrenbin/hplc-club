@@ -6,13 +6,13 @@ hide:
 
 <div class="home-shell">
   <section class="hero">
-    <div class="hero__eyebrow">✨ HPLC CLUB · 协议文档站</div>
+    <div class="hero__eyebrow">✨ HPLC CLUB</div>
 
     <div class="hero__grid">
       <div class="hero__main">
-        <h1 class="hero__title">面向 <strong>HPLC 协议协作</strong> 的在线文档入口</h1>
+        <h1 class="hero__title">面向 <strong>HPLC 模块</strong> 的技术交流社区</h1>
         <p class="hero__subtitle">
-          以 Markdown 为源，持续沉淀管理消息、协议章节、字段定义与版本差异。<br>保留工程语境，同时把阅读体验拉到更适合长期查阅的文档站风格。
+          以 Markdown 为源，持续沉淀管理消息、协议章节、字段定义与版本差异。
         </p>
 
         <div class="hero__actions">
@@ -42,16 +42,8 @@ hide:
       <aside class="hero__panel">
         <h2>站点特性</h2>
         <ul>
-          <li><strong>文档语义结构</strong>：保留原始协议章节语义</li>
           <li><strong>GitOps 自动化</strong>：修改 <code>md_doc/</code> 自动构建发布</li>
           <li><strong>团队友好共享</strong>：适合内部查阅、扩展与传播</li>
-        </ul>
-
-        <h2>推荐阅读顺序</h2>
-        <ul>
-          <li>先读 <a href="00_message-manager/">管理消息总览</a>，建立框架</li>
-          <li>再按消息类型进入单篇协议详细内容</li>
-          <li>随时参阅“版本差异”与“实现注意点”</li>
         </ul>
 
         <h2>仓库与站点</h2>
@@ -67,55 +59,7 @@ hide:
 
   <h2 class="section-title">为什么这样组织</h2>
   <p class="section-lead">
-    打造更像“长期可维护知识库”的工程型文档。带来清晰的入口划分、极佳的视觉呈现、动态交互反馈，让协议查阅成为一种享受。
+    记录送检或者开发中踩过的一些坑，供开发者参考，避免开发者重复踩坑。
   </p>
 
-  <div class="feature-grid">
-    <section class="feature-card">
-      <h3>📚 按主题沉淀</h3>
-      <p>管理消息、字段布局、版本差异和实现备注逐步补充，彻底打破一次性设计的信息约束。</p>
-    </section>
-    <section class="feature-card">
-      <h3>🔗 按页面阅读</h3>
-      <p>每个消息分类保留独立 URL，方便团队精准分享沟通具体的业务协议片段。</p>
-    </section>
-    <section class="feature-card">
-      <h3>🚀 按提交发布</h3>
-      <p>持续回归 “写 Markdown → 推 Git” 的无损动作，通过流水线让部署链路隐而不现。</p>
-    </section>
-  </div>
-
-  <h2 class="section-title">快速入口</h2>
-  <p class="section-lead">通过下方精选的模块卡片快速抵达核心知识区，获取开发所需要的第一手信息。</p>
-
-  <div class="chapter-grid">
-    <article class="chapter-card">
-      <a href="00_message-manager/">
-        <span class="chapter-card__tag">总览导航</span>
-        <h3>管理消息</h3>
-        <p>提供消息类型表、章节落脚点以及混合组网版本区分的核心纲要与建议。</p>
-      </a>
-    </article>
-    <article class="chapter-card">
-      <a href="01_MMeAssocReq/">
-        <span class="chapter-card__tag">关联流程 · 请求</span>
-        <h3>MMeAssocReq</h3>
-        <p>详细记录关联请求帧格式的每一个字段布局和表格参数说明。</p>
-      </a>
-    </article>
-    <article class="chapter-card">
-      <a href="02_MMeAssocCnf/">
-        <span class="chapter-card__tag">关联流程 · 确认</span>
-        <h3>MMeAssocCnf</h3>
-        <p>紧接关联请求链路的必读内容，涵盖确认阶段的关键报文规约。</p>
-      </a>
-    </article>
-    <article class="chapter-card">
-      <a href="16_MMeDiagnose/">
-        <span class="chapter-card__tag">诊断监控</span>
-        <h3>MMeDiagnose</h3>
-        <p>调试定位必知必会，扩充各类实现注意点与排障路径的最佳落点。</p>
-      </a>
-    </article>
-  </div>
 </div>
