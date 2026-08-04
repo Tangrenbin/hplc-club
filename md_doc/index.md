@@ -5,57 +5,185 @@ hide:
 ---
 
 <div class="home-shell">
-  <section class="hero">
-    <div class="hero__eyebrow">✨ HPLC CLUB</div>
+  <section class="home-hero">
+    <div class="home-hero__copy">
+      <div class="home-kicker">
+        <span class="home-kicker__mark" aria-hidden="true"></span>
+        HPLC 技术知识库
+        <span class="home-kicker__status">持续更新</span>
+      </div>
 
-    <div class="hero__grid">
-      <div class="hero__main">
-        <h1 class="hero__title">面向 <strong>HPLC 模块</strong> 的技术交流社区</h1>
-        <p class="hero__subtitle">
-          以 Markdown 为源，持续沉淀管理消息、协议章节、字段定义与版本差异。
-        </p>
+      <h1>让每一次送检经验，<br><em>成为下一次的起点。</em></h1>
 
-        <div class="hero__actions">
-          <a class="hero__button hero__button--primary" href="站点维护或投稿方法/">查看全部稿件 →</a>
-          <a class="hero__button hero__button--secondary" href="https://github.com/Tangrenbin/hplc-club">
-            <svg style="width:20px;height:20px;margin-right:8px;" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg>
-            查看仓库
-          </a>
+      <p class="home-hero__lead">
+        面向 HPLC 模块研发与测试人员，沉淀送检记录、协议细节、现场问题和版本差异。把散落的经验，整理成团队随时可查的工程知识。
+      </p>
+
+      <div class="home-actions">
+        <a class="home-button home-button--primary" href="#latest-notes">
+          浏览技术记录
+          <span aria-hidden="true">↗</span>
+        </a>
+        <a class="home-button home-button--ghost" href="站点维护或投稿方法/">
+          参与共建
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <div class="home-metrics" aria-label="站点数据">
+        <div class="home-metric">
+          <strong>08</strong>
+          <span>篇知识文档</span>
+        </div>
+        <div class="home-metric">
+          <strong>MD</strong>
+          <span>文档即源码</span>
+        </div>
+        <div class="home-metric">
+          <strong>Auto</strong>
+          <span>推送即发布</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-hero__visual" aria-label="HPLC 网络通信示意图">
+      <div class="signal-card">
+        <div class="signal-card__head">
+          <span>NETWORK / HPLC</span>
+          <div class="signal-card__lights" aria-hidden="true"><i></i><i></i><i></i></div>
         </div>
 
-        <div class="hero__meta">
-          <div class="hero__stat">
-            <strong>MD</strong>
-            <span>直接驱动站点更新</span>
+        <div class="signal-map">
+          <div class="signal-map__grid" aria-hidden="true"></div>
+          <div class="signal-map__pulse" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="signal-node signal-node--cco">
+            <span class="signal-node__icon">CCO</span>
+            <small>中心节点</small>
           </div>
-          <div class="hero__stat">
-            <strong>Automated</strong>
-            <span>推送后 Vercel 自动发布</span>
-          </div>
+          <div class="signal-node signal-node--sta1"><b></b><span>STA · 01</span></div>
+          <div class="signal-node signal-node--sta2"><b></b><span>STA · 02</span></div>
+          <div class="signal-node signal-node--sta3"><b></b><span>STA · 03</span></div>
+          <svg class="signal-lines" viewBox="0 0 520 360" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M265 178 C190 128 152 110 89 83" />
+            <path d="M270 180 C367 136 403 119 445 89" />
+            <path d="M265 186 C300 250 333 277 414 300" />
+          </svg>
+        </div>
+
+        <div class="signal-card__foot">
+          <div><span class="signal-dot"></span>网络状态 <strong>ONLINE</strong></div>
+          <div>节点 <strong>03 / 03</strong></div>
         </div>
       </div>
 
-      <aside class="hero__panel">
-        <h2>站点特性</h2>
-        <ul>
-          <li><strong>GitOps 自动化</strong>：修改 <code>md_doc/</code> 自动构建发布</li>
-          <li><strong>团队友好共享</strong>：适合内部查阅、扩展与传播</li>
-        </ul>
-
-        <h2>仓库与站点</h2>
-        <ul>
-          <li><a href="https://github.com/Tangrenbin/hplc-club">GitHub 仓库</a></li>
-          <li><a href="https://gitee.com/tangrenbin/hplc-club">Gitee 镜像</a></li>
-          <li><a href="https://hplc-club.990124.xyz/">主站访问域名</a></li>
-          <li><a href="https://hplc-club.vercel.app/">Vercel 访问域名</a></li>
-        </ul>
-      </aside>
+      <div class="protocol-chip protocol-chip--top">
+        <span>协议追踪</span>
+        <strong>FRAME OK</strong>
+      </div>
+      <div class="protocol-chip protocol-chip--bottom">
+        <span>知识同步</span>
+        <strong>DEPLOYED</strong>
+      </div>
     </div>
   </section>
 
-  <h2 class="section-title">为什么这样组织</h2>
-  <p class="section-lead">
-    记录送检或者开发中踩过的一些坑，供开发者参考，避免开发者重复踩坑。
-  </p>
+  <section class="home-section" id="latest-notes">
+    <div class="home-section__heading">
+      <div>
+        <span class="home-overline">FIELD NOTES</span>
+        <h2>来自一线的技术记录</h2>
+        <p>按地区和批次整理测试过程，让相似问题有迹可循。</p>
+      </div>
+      <a class="home-text-link" href="站点维护或投稿方法/">查看投稿方法 <span>→</span></a>
+    </div>
 
+    <div class="note-grid">
+      <a class="note-card note-card--featured" href="重庆26年一批送检测试记录/">
+        <div class="note-card__top">
+          <span class="note-card__index">01</span>
+          <span class="note-card__tag">最新记录</span>
+        </div>
+        <div class="note-card__body">
+          <span class="note-card__meta">重庆 · 2026 第一批</span>
+          <h3>重庆 26 年一批<br>送检测试记录</h3>
+          <p>汇总送检过程中的并发抄读、事件上报等典型现象与排查记录。</p>
+        </div>
+        <div class="note-card__more">阅读全文 <span>↗</span></div>
+      </a>
+
+      <a class="note-card" href="辽宁26年1批送检记录/">
+        <div class="note-card__top">
+          <span class="note-card__index">02</span>
+          <span class="note-card__tag">送检记录</span>
+        </div>
+        <div class="note-card__body">
+          <span class="note-card__meta">辽宁 · 2026 第一批</span>
+          <h3>辽宁 26 年<br>第一批送检记录</h3>
+          <p>测试环境、现场照片与关键问题的完整留档。</p>
+        </div>
+        <div class="note-card__more">阅读全文 <span>↗</span></div>
+      </a>
+
+      <a class="note-card" href="福建25-1批送检测试记录/">
+        <div class="note-card__top">
+          <span class="note-card__index">03</span>
+          <span class="note-card__tag">测试归档</span>
+        </div>
+        <div class="note-card__body">
+          <span class="note-card__meta">福建 · 2025 第一批</span>
+          <h3>福建 25-1 批<br>送检测试记录</h3>
+          <p>覆盖台体环境、协议表现、功耗及互换性等测试内容。</p>
+        </div>
+        <div class="note-card__more">阅读全文 <span>↗</span></div>
+      </a>
+
+      <a class="note-card" href="浙江25年2批送检记录/">
+        <div class="note-card__top">
+          <span class="note-card__index">04</span>
+          <span class="note-card__tag">问题复盘</span>
+        </div>
+        <div class="note-card__body">
+          <span class="note-card__meta">浙江 · 2025 第二批</span>
+          <h3>浙江 25 年<br>第二批送检记录</h3>
+          <p>从现象到结论，保留可复用的定位路径。</p>
+        </div>
+        <div class="note-card__more">阅读全文 <span>↗</span></div>
+      </a>
+    </div>
+  </section>
+
+  <section class="home-section home-section--workflow">
+    <div class="workflow-intro">
+      <span class="home-overline home-overline--light">HOW IT WORKS</span>
+      <h2>轻量记录，<br>长期复用。</h2>
+      <p>这里不追求复杂的内容系统。工程师只需要专注于事实、过程与结论，其余交给自动化流程。</p>
+      <div class="workflow-links">
+        <a href="https://github.com/Tangrenbin/hplc-club">GitHub 仓库 ↗</a>
+        <a href="https://gitee.com/tangrenbin/hplc-club">Gitee 镜像 ↗</a>
+      </div>
+    </div>
+
+    <div class="workflow-steps">
+      <div class="workflow-step">
+        <span>01</span>
+        <div><h3>记录现场</h3><p>用 Markdown 整理测试条件、问题现象和关键截图。</p></div>
+      </div>
+      <div class="workflow-step">
+        <span>02</span>
+        <div><h3>团队校验</h3><p>通过 Git 协作补充上下文，让结论可验证、可追溯。</p></div>
+      </div>
+      <div class="workflow-step">
+        <span>03</span>
+        <div><h3>自动发布</h3><p>提交后由 Vercel 构建站点，知识立刻进入共享索引。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-cta">
+    <div>
+      <span class="home-overline">BUILD TOGETHER</span>
+      <h2>你踩过的坑，也许正是别人需要的答案。</h2>
+    </div>
+    <a class="home-button home-button--dark" href="站点维护或投稿方法/">开始贡献 <span>→</span></a>
+  </section>
 </div>
