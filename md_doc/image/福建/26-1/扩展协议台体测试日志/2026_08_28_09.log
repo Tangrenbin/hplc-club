@@ -1,0 +1,150 @@
+DateTime:2026-08-28 09:29:40.768:QPixmap::scaled: Pixmap is a null pixmap                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:29:40.785:QPixmap::scaled: Pixmap is a null pixmap                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:29:40.792:QPixmap::scaled: Pixmap is a null pixmap                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:29:40.798:QPixmap::scaled: Pixmap is a null pixmap                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:29:40.883:数据库建立表格 "CREATE TABLE TIME_PASS_RATE ('时间' TEXT,'类型' TEXT,'总数量' TEXT,'直通数量' TEXT,'直通率' TEXT,PRIMARY KEY('时间','类型'));"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:40.890:QSqlError("1", "Unable to execute statement", "table TIME_PASS_RATE already exists")                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:40.896:"CREATE TRIGGER limitNum  AFTER INSERT ON DATA_SAVE WHEN (SELECT COUNT( * ) FROM DATA_SAVE ) > 10000 BEGIN DELETE FROM DATA_SAVE WHERE 时间 in (SELECT 时间 FROM DATA_SAVE ORDER BY 时间); END;"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:40.902:QSqlError("1", "Unable to execute statement", "no such table: main.DATA_SAVE")                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:40.909:"SELECT id, round_id, meter_index, product, main_project, sub_project, pass, result, data, timestamp FROM TestResult ORDER BY timestamp DESC"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:40.938:QObject::moveToThread: Widgets cannot be moved to a new thread                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:29:40.967:QMetaObject::connectSlotsByName: No matching signal for on_cb_isTestIai_stateChanged(int)                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:29:40.976:数据库建立表格 "CREATE TABLE TASK_LIST ('状态' TEXT,'任务号' TEXT,'任务优先级' TEXT,'任务类型' TEXT,'设备类别' TEXT,'样品数量' TEXT,'试验方案编号' TEXT,'复测标识' TEXT,'复测项目' TEXT,'试验方案名称' TEXT,'试验方案更新时间' TEXT,'样品条码' TEXT,PRIMARY KEY('任务号'));"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:40.983:QSqlError("1", "Unable to execute statement", "table TASK_LIST already exists")                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:40.989:数据库建立表格 "CREATE TABLE TASK_CONTROL ('状态' TEXT,'任务号' TEXT,'控制时间' TEXT,'设备编号' TEXT,'任务控制指令类型' TEXT,'控制详情' TEXT,'试验项目编码' TEXT,'唯一标识' TEXT,PRIMARY KEY('唯一标识'));"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:40.995:QSqlError("1", "Unable to execute statement", "table TASK_CONTROL already exists")                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:41.001:数据库建立表格 "CREATE TABLE SYSTEM_CONTROL ('设备编号' TEXT,'控制时间' TEXT,'系统控制指令类型' TEXT,'唯一标识' TEXT,PRIMARY KEY('唯一标识'));"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:41.006:QSqlError("1", "Unable to execute statement", "table SYSTEM_CONTROL already exists")                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:41.014:UploadControl初始化成功                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:41.031:显示控制中心                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:41.218:"本地RocketMq生产者初始化失败,连接前置机127.0.0.1:9093失败,请检查"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:41.517:HttpListener: Listening on port 11234                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:41.524:web服务器开启成功                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:41.531:工况:8.1上报开机事件                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:41.593:"RocketMq上报工况(设备事件):{\"devSeatStatusList\":[],\"eventTime\":\"2026-08-28 09:29:41\",\"plantEventType\":\"0101\",\"plantNo\":\"YL-101601\",\"taskNo\":\"\",\"veriItemParaNo\":\"\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:41.599:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:29:42.031:工况:8.9上报主控程序通电开机检查结果                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:42.161:"RocketMq上报工况(开机检查结果):{\"checkConc\":\"01\",\"checkData\":\"启动成功\",\"detectSn\":\"1\",\"finishTime\":\"2026-08-28 09:29:42\",\"itemName\":\"主控程序通电\",\"itemNo\":\"0203\",\"itemType\":\"02\",\"plantNo\":\"YL-101601\",\"plantWarnList\":[],\"startTime\":\"2026-08-28 09:29:42\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:42.168:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:29:42.531:工况:8.1上报开始预热事件                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:42.739:"RocketMq上报工况(设备事件):{\"devSeatStatusList\":[],\"eventTime\":\"2026-08-28 09:29:42\",\"plantEventType\":\"0103\",\"plantNo\":\"YL-101601\",\"taskNo\":\"\",\"veriItemParaNo\":\"\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:42.745:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:29:43.031:工况:8.3设置工作状态为预热                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:43.311:"RocketMq上报工况(设备工作状态信息):{\"curWkStatusCode\":\"01\",\"plantNo\":\"YL-101601\",\"previousState\":\"03\",\"receiveTime\":\"2026-08-28 09:29:43\",\"startTime\":\"2026-08-28 09:29:43\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:43.317:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:29:43.531:工况:8.1上报结束预热事件                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:43.878:"RocketMq上报工况(设备事件):{\"devSeatStatusList\":[],\"eventTime\":\"2026-08-28 09:29:43\",\"plantEventType\":\"0104\",\"plantNo\":\"YL-101601\",\"taskNo\":\"\",\"veriItemParaNo\":\"\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:43.884:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:29:44.031:工况:8.3设置工作状态为空闲                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:44.453:"RocketMq上报工况(设备工作状态信息):{\"curWkStatusCode\":\"02\",\"plantNo\":\"YL-101601\",\"previousState\":\"01\",\"receiveTime\":\"2026-08-28 09:29:44\",\"startTime\":\"2026-08-28 09:29:44\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:44.459:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:29:45.017:"RocketMq上报工况(日志信息):{\"logInfo\":\"系统初始化完成\",\"logTime\":\"2026-08-28 09:29:44\",\"machNo\":\"\",\"plantNo\":\"YL-101601\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:45.023:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:29:54.128:显示工控平台                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.083:"http://25.86.165.82:30022//Restful/gkReciveVeriSchemeInfo"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.092:"postSend: path:/Restful/gkReciveVeriSchemeInfo,send:{\"schemeNo\":\"2026020202\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.100:------------------------------------                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.107:"postSend: path:/Restful/gkReciveVeriSchemeInfo,send:{\"schemeNo\":\"2026020202\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.248:"postReply: path:/Restful/gkReciveVeriSchemeInfo,reply:{\n  \"schemeList\" : [ {\n    \"itemName\" : \"互联互通互操作性试验\",\n    \"itemCode\" : \"0803\",\n    \"paraValue\" : \"0||0|模块信息核对测试||;1||1|初始化命令类检测||;2||2|透明转发类命令检测||;3||3|数据转发类命令检测||;4||4|查询数据类命令检测||;5||5|控制类命令-主节点地址检测||;6||6|控制类命令-从节点主动注册检测||;7||7|控制类命令-模块通信协议模式转换检测||;8||8|控制类命令-本地通信模块串口通信速率协商检测||;9||9|扩展协议数据转发检测||;10||10|预告任务检测||;11||11|智能补采检测||;12||12|定时任务流程测试||;13||13|通用冻结数据检测||;14||14|网口通信检测||;15||15|点抄成功率及数据准确性测试||;16||16|点抄流程测试||;17||17|广播流程测试||;18||18|频段切换测试||;19||19|搜表功能测试||;20||20|停复电事件上报测试||;21||21|相位识别测试||;22||22|一般事件上报测试||;23||23|异常报文测试||;24||24|远程升级测试||;25||25|长报文测试||;26||26|事件上报测试||;27||27|长报文上报测试||;28||28|功耗检测||;29||29|入离网上报测试||;30||30|台区识别测试||;31||31|温度检测||\",\n    \"paraType\" : \"sn|TEST_CATEGORIES|VERI_POINT_NO|PARAM|PARAM_IT_S|TECHNICAL_REQUIRE\",\n    \"paraName\" : \"序号|试验项编号|检测点编号|试验参数|参数分项|执行试验的技术要求\"\n  } ],\n  \"errorInfo\" : \"服务请求成功\",\n  \"resultFlag\" : \"1\"\n}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.269:"postReply: path:/Restful/gkReciveVeriSchemeInfo,reply:{\n  \"schemeList\" : [ {\n    \"itemName\" : \"互联互通互操作性试验\",\n    \"itemCode\" : \"0803\",\n    \"paraValue\" : \"0||0|模块信息核对测试||;1||1|初始化命令类检测||;2||2|透明转发类命令检测||;3||3|数据转发类命令检测||;4||4|查询数据类命令检测||;5||5|控制类命令-主节点地址检测||;6||6|控制类命令-从节点主动注册检测||;7||7|控制类命令-模块通信协议模式转换检测||;8||8|控制类命令-本地通信模块串口通信速率协商检测||;9||9|扩展协议数据转发检测||;10||10|预告任务检测||;11||11|智能补采检测||;12||12|定时任务流程测试||;13||13|通用冻结数据检测||;14||14|网口通信检测||;15||15|点抄成功率及数据准确性测试||;16||16|点抄流程测试||;17||17|广播流程测试||;18||18|频段切换测试||;19||19|搜表功能测试||;20||20|停复电事件上报测试||;21||21|相位识别测试||;22||22|一般事件上报测试||;23||23|异常报文测试||;24||24|远程升级测试||;25||25|长报文测试||;26||26|事件上报测试||;27||27|长报文上报测试||;28||28|功耗检测||;29||29|入离网上报测试||;30||30|台区识别测试||;31||31|温度检测||\",\n    \"paraType\" : \"sn|TEST_CATEGORIES|VERI_POINT_NO|PARAM|PARAM_IT_S|TECHNICAL_REQUIRE\",\n    \"paraName\" : \"序号|试验项编号|检测点编号|试验参数|参数分项|执行试验的技术要求\"\n  } ],\n  \"errorInfo\" : \"服务请求成功\",\n  \"resultFlag\" : \"1\"\n}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.281:------------------------------------                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.291:"http://25.86.165.82:30022//Restful/gkReciveVeriEquipDoc"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.299:"postSend: path:/Restful/gkReciveVeriEquipDoc,send:{\"barCode\":\"3530054005400202251135\",\"sysNo\":\"YL-101601\",\"taskNo\":\"202662391411896\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.306:------------------------------------                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.312:"postSend: path:/Restful/gkReciveVeriEquipDoc,send:{\"barCode\":\"3530054005400202251135\",\"sysNo\":\"YL-101601\",\"taskNo\":\"202662391411896\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.453:"postReply: path:/Restful/gkReciveVeriEquipDoc,reply:{\n  \"errorInfo\" : \"成功\",\n  \"resultFlag\" : \"1\",\n  \"equipInfoList\" : [ {\n    \"conMode\" : null,\n    \"devType\" : null,\n    \"carrierFreq\" : null,\n    \"rpConstant\" : null,\n    \"manufacturerName\" : null,\n    \"bidBatchNo\" : null,\n    \"freq\" : null,\n    \"carrierType\" : null,\n    \"equipCateg\" : null,\n    \"wiringMode\" : null,\n    \"barCode\" : \"3530054005400202251135\",\n    \"sampleName\" : \"通信单元\",\n    \"apPreLevel\" : null,\n    \"apConstant\" : null,\n    \"taskNo\" : \"202662391411896\",\n    \"vacStandard\" : null,\n    \"sampleModel\" : \"SC3202H\",\n    \"commProt\" : null,\n    \"bothWayPowerFlag\" : null,\n    \"rpPreLevel\" : null,\n    \"carrierChipManufName\" : null\n  } ]\n}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.463:"postReply: path:/Restful/gkReciveVeriEquipDoc,reply:{\n  \"errorInfo\" : \"成功\",\n  \"resultFlag\" : \"1\",\n  \"equipInfoList\" : [ {\n    \"conMode\" : null,\n    \"devType\" : null,\n    \"carrierFreq\" : null,\n    \"rpConstant\" : null,\n    \"manufacturerName\" : null,\n    \"bidBatchNo\" : null,\n    \"freq\" : null,\n    \"carrierType\" : null,\n    \"equipCateg\" : null,\n    \"wiringMode\" : null,\n    \"barCode\" : \"3530054005400202251135\",\n    \"sampleName\" : \"通信单元\",\n    \"apPreLevel\" : null,\n    \"apConstant\" : null,\n    \"taskNo\" : \"202662391411896\",\n    \"vacStandard\" : null,\n    \"sampleModel\" : \"SC3202H\",\n    \"commProt\" : null,\n    \"bothWayPowerFlag\" : null,\n    \"rpPreLevel\" : null,\n    \"carrierChipManufName\" : null\n  } ]\n}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.469:------------------------------------                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.475:"http://25.86.165.82:30022//Restful/gkReciveVeriEquipDoc"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.482:"postSend: path:/Restful/gkReciveVeriEquipDoc,send:{\"barCode\":\"3530054005400273957424\",\"sysNo\":\"YL-101601\",\"taskNo\":\"202662391411896\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.488:------------------------------------                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.494:"postSend: path:/Restful/gkReciveVeriEquipDoc,send:{\"barCode\":\"3530054005400273957424\",\"sysNo\":\"YL-101601\",\"taskNo\":\"202662391411896\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.611:"postReply: path:/Restful/gkReciveVeriEquipDoc,reply:{\n  \"errorInfo\" : \"成功\",\n  \"resultFlag\" : \"1\",\n  \"equipInfoList\" : [ {\n    \"conMode\" : null,\n    \"devType\" : null,\n    \"carrierFreq\" : null,\n    \"rpConstant\" : null,\n    \"manufacturerName\" : null,\n    \"bidBatchNo\" : null,\n    \"freq\" : null,\n    \"carrierType\" : null,\n    \"equipCateg\" : null,\n    \"wiringMode\" : null,\n    \"barCode\" : \"3530054005400273957424\",\n    \"sampleName\" : \"通信单元\",\n    \"apPreLevel\" : null,\n    \"apConstant\" : null,\n    \"taskNo\" : \"202662391411896\",\n    \"vacStandard\" : null,\n    \"sampleModel\" : \"SC3202H\",\n    \"commProt\" : null,\n    \"bothWayPowerFlag\" : null,\n    \"rpPreLevel\" : null,\n    \"carrierChipManufName\" : null\n  } ]\n}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.633:"postReply: path:/Restful/gkReciveVeriEquipDoc,reply:{\n  \"errorInfo\" : \"成功\",\n  \"resultFlag\" : \"1\",\n  \"equipInfoList\" : [ {\n    \"conMode\" : null,\n    \"devType\" : null,\n    \"carrierFreq\" : null,\n    \"rpConstant\" : null,\n    \"manufacturerName\" : null,\n    \"bidBatchNo\" : null,\n    \"freq\" : null,\n    \"carrierType\" : null,\n    \"equipCateg\" : null,\n    \"wiringMode\" : null,\n    \"barCode\" : \"3530054005400273957424\",\n    \"sampleName\" : \"通信单元\",\n    \"apPreLevel\" : null,\n    \"apConstant\" : null,\n    \"taskNo\" : \"202662391411896\",\n    \"vacStandard\" : null,\n    \"sampleModel\" : \"SC3202H\",\n    \"commProt\" : null,\n    \"bothWayPowerFlag\" : null,\n    \"rpPreLevel\" : null,\n    \"carrierChipManufName\" : null\n  } ]\n}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.645:------------------------------------                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:29:59.654:"任务202662391411896,方案详情获取成功,\n任务202662391411896,资产信息获取成功,"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:30:19.129:key "表位1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:30:19.138:itemCode "表位1" barcodeList ("3530054005400202251135")                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:30:19.150:"设为当前任务,任务号:202662391411896,方案编号:2026020202 ,对应条码:表位1-3530054005400202251135;"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:30:19.197:"PLANLIST" []已删除                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:30:19.203:"RocketMq上报工况(设备事件):{\"devSeatStatusList\":[{\"barCode\":\"3530054005400202251135_3530054005400273957424\",\"devSeatNo\":\"1\",\"statusCode\":\"02\"}],\"eventTime\":\"2026-08-28 09:30:19\",\"plantEventType\":\"0105\",\"plantNo\":\"YL-101601\",\"taskNo\":\"202662391411896\",\"veriItemParaNo\":\"\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:30:19.211:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:30:19.720:"RocketMq上报工况(设备事件):{\"devSeatStatusList\":[],\"eventTime\":\"2026-08-28 09:30:19\",\"plantEventType\":\"0119\",\"plantNo\":\"YL-101601\",\"taskNo\":\"202662391411896\",\"veriItemParaNo\":\"0801\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:30:19.729:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:30:20.235:"RocketMq上报工况(设备事件):{\"devSeatStatusList\":[],\"eventTime\":\"2026-08-28 09:30:19\",\"plantEventType\":\"0119\",\"plantNo\":\"YL-101601\",\"taskNo\":\"202662391411896\",\"veriItemParaNo\":\"0802\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:30:20.242:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:30:20.750:"RocketMq上报工况(设备事件):{\"devSeatStatusList\":[],\"eventTime\":\"2026-08-28 09:30:19\",\"plantEventType\":\"0119\",\"plantNo\":\"YL-101601\",\"taskNo\":\"202662391411896\",\"veriItemParaNo\":\"0803\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:30:20.756:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 09:31:42.489:"PLANLIST" []已删除                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:32:35.097:"PLANLIST" []已删除                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:32:41.124:"CCO的波特率为2"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:32:41.132:m_SimuCoor1_IP "192.168.6.101" m_SimuCoor1_IPandPort "192.168.6.101;4001"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:32:41.138:m_SimuCoor2_IP "192.168.6.102" m_SimuCoor2_IPandPort "192.168.6.102;4001"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:32:41.144:m_SimuCoor3_IP "192.168.6.103" m_SimuCoor3_IPandPort "192.168.6.103;4001"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:32:41.150:m_SimuCoor4_IP "192.168.6.105" m_SimuCoor4_IPandPort "192.168.6.105;4001"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:32:41.160:"当前工作模式为:集中器路由"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:32:41.166:"开始执行工作流程"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:32:41.172:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:32:41.180:"=============执行【开启测试项日志】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:39:24.696:"=========【关闭测试项日志】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:39:24.703:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:39:24.709:"=============执行【开启测试项日志】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:43:21.236:"=========【关闭测试项日志】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:43:21.243:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:43:21.249:"=============执行【开启测试项日志】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:54:16.534:"=========【关闭测试项日志】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:54:16.541:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 09:54:16.547:"=============执行【开启测试项日志】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 10:16:38.985:"=========【关闭测试项日志】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 10:16:38.992:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 10:16:38.998:"=============执行【开启测试项日志】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 10:22:04.652:"=========【关闭测试项日志】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 10:22:04.658:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 10:22:04.664:"=============执行【开启测试项日志】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 10:32:22.558:"=========【关闭测试项日志】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 10:32:22.564:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 10:32:22.570:"=============执行【开启测试项日志】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 10:48:24.200:"=========【关闭测试项日志】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 10:48:24.206:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 10:48:24.212:"=============执行【开启测试项日志】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 11:13:15.104:"=========【关闭测试项日志】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 11:13:15.111:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 11:13:15.117:"=============执行【开启测试项日志】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 11:38:47.339:"=========【关闭测试项日志】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 11:38:47.345:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 11:38:47.352:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 11:38:47.357:"工作流程执行结束"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 11:38:48.131:"工作状态变更,当前状态:空闲"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 11:38:48.203:"RocketMq上报工况(设备工作状态信息):{\"curWkStatusCode\":\"02\",\"plantNo\":\"YL-101601\",\"previousState\":\"04\",\"receiveTime\":\"2026-08-28 11:38:48\",\"startTime\":\"2026-08-28 11:38:48\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 11:38:48.213:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 11:43:02.031:"RocketMq上报工况(设备输出信息):{\"devSeatNo\":\"1\",\"machNo\":\"\",\"occurTime\":\"2026-08-28 11:43:02\",\"plantNo\":\"YL-101601\",\"realTimeValues\":[{\"outParaName\":\"volage\",\"outParaValue\":\"220V\"}],\"remarks\":\"null\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 11:43:02.042:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 11:59:42.048:"RocketMq上报工况(设备输出信息):{\"devSeatNo\":\"1\",\"machNo\":\"\",\"occurTime\":\"2026-08-28 11:59:42\",\"plantNo\":\"YL-101601\",\"realTimeValues\":[{\"outParaName\":\"volage\",\"outParaValue\":\"220V\"}],\"remarks\":\"null\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 11:59:42.058:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 12:09:33.866:"PLANLIST" []已删除                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 12:09:38.693:"CCO的波特率为2"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 12:09:38.700:m_SimuCoor1_IP "192.168.6.101" m_SimuCoor1_IPandPort "192.168.6.101;4001"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 12:09:38.707:m_SimuCoor2_IP "192.168.6.102" m_SimuCoor2_IPandPort "192.168.6.102;4001"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 12:09:38.713:m_SimuCoor3_IP "192.168.6.103" m_SimuCoor3_IPandPort "192.168.6.103;4001"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 12:09:38.718:m_SimuCoor4_IP "192.168.6.105" m_SimuCoor4_IPandPort "192.168.6.105;4001"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 12:09:38.739:"当前工作模式为:集中器路由"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 12:09:38.745:"开始执行工作流程"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 12:09:38.751:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 12:09:38.763:"=============执行【开启测试项日志】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 15:22:23.989:"=========【关闭测试项日志】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 15:22:23.996:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 15:22:24.002:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 15:22:24.008:"工作流程执行结束"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 15:22:24.203:"工作状态变更,当前状态:空闲"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 15:22:24.271:"RocketMq上报工况(设备工作状态信息):{\"curWkStatusCode\":\"02\",\"plantNo\":\"YL-101601\",\"previousState\":\"04\",\"receiveTime\":\"2026-08-28 15:22:24\",\"startTime\":\"2026-08-28 15:22:24\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 15:22:24.280:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-28 15:26:20.549:"PLANLIST" []已删除                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 15:26:32.743:"CCO的波特率为2"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 15:26:32.750:m_SimuCoor1_IP "192.168.6.101" m_SimuCoor1_IPandPort "192.168.6.101;4001"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 15:26:32.756:m_SimuCoor2_IP "192.168.6.102" m_SimuCoor2_IPandPort "192.168.6.102;4001"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 15:26:32.762:m_SimuCoor3_IP "192.168.6.103" m_SimuCoor3_IPandPort "192.168.6.103;4001"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 15:26:32.768:m_SimuCoor4_IP "192.168.6.105" m_SimuCoor4_IPandPort "192.168.6.105;4001"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 15:26:32.788:"当前工作模式为:集中器路由"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 15:26:32.794:"开始执行工作流程"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 15:26:32.800:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-28 15:26:32.812:"=============执行【开启测试项日志】==================="                            File: Line:0 Function: Type:Debug:
