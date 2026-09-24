@@ -30,61 +30,8 @@ hide:
         </a>
       </div>
 
-      <div class="home-metrics" aria-label="站点数据">
-        <div class="home-metric">
-          <strong>08</strong>
-          <span>篇知识文档</span>
-        </div>
-        <div class="home-metric">
-          <strong>MD</strong>
-          <span>文档即源码</span>
-        </div>
-        <div class="home-metric">
-          <strong>Auto</strong>
-          <span>推送即发布</span>
-        </div>
-      </div>
     </div>
 
-    <div class="home-hero__visual" aria-label="HPLC 网络通信示意图">
-      <div class="signal-card">
-        <div class="signal-card__head">
-          <span>NETWORK / HPLC</span>
-          <div class="signal-card__lights" aria-hidden="true"><i></i><i></i><i></i></div>
-        </div>
-
-        <div class="signal-map">
-          <div class="signal-map__grid" aria-hidden="true"></div>
-          <div class="signal-map__pulse" aria-hidden="true"><i></i><i></i><i></i></div>
-          <div class="signal-node signal-node--cco">
-            <span class="signal-node__icon">CCO</span>
-            <small>中心节点</small>
-          </div>
-          <div class="signal-node signal-node--sta1"><b></b><span>STA · 01</span></div>
-          <div class="signal-node signal-node--sta2"><b></b><span>STA · 02</span></div>
-          <div class="signal-node signal-node--sta3"><b></b><span>STA · 03</span></div>
-          <svg class="signal-lines" viewBox="0 0 520 360" preserveAspectRatio="none" aria-hidden="true">
-            <path d="M265 178 C190 128 152 110 89 83" />
-            <path d="M270 180 C367 136 403 119 445 89" />
-            <path d="M265 186 C300 250 333 277 414 300" />
-          </svg>
-        </div>
-
-        <div class="signal-card__foot">
-          <div><span class="signal-dot"></span>网络状态 <strong>ONLINE</strong></div>
-          <div>节点 <strong>03 / 03</strong></div>
-        </div>
-      </div>
-
-      <div class="protocol-chip protocol-chip--top">
-        <span>协议追踪</span>
-        <strong>FRAME OK</strong>
-      </div>
-      <div class="protocol-chip protocol-chip--bottom">
-        <span>知识同步</span>
-        <strong>DEPLOYED</strong>
-      </div>
-    </div>
   </section>
 
   <section class="home-section" id="latest-notes">
