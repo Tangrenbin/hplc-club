@@ -1,0 +1,1130 @@
+====== 测试项开始: 控制类命令-本地通信模块串口通信速率协商检测 ======
+时间: 2026-08-27 10:35:51
+DateTime:2026-08-27 10:35:51.152:"=========【开启测试项日志】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.152:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.153:"=============执行【Step1-应用串口初始化】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.153:"执行接口函数ini_SimuCorn_Connect"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.153:callWorkFunction: ini_SimuCorn_Connect                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.153:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.155:"全部工装板连接成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.256:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.256:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.256:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.256:"执行接口函数ini_SimuCorn_Connect完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.258:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.258:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.258:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.258:"=========【Step1-应用串口初始化】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.258:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.260:"=============执行【初始化工装参数】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.260:"执行接口函数ini_SimuCorn_Para"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.260:callWorkFunction: ini_SimuCorn_Para                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.260:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.260:"工装板参数初始化完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.361:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.361:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.361:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.361:"执行接口函数ini_SimuCorn_Para完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.362:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.362:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.363:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.363:"=========【初始化工装参数】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.363:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.364:"=============执行【测试槽位设置波特率】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.365:"执行接口函数SimuCorn_set_baudrate"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.365:callWorkFunction: SimuCorn_set_baudrate                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.365:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.365:"工装发送：68 3A 00 3A 00 68 40 00 00 00 00 00 22 60 00 00 08 00 02 02 CE 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.366:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.366:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.366:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.366:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.366:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.366:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.366:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.366:"全部槽位设置波特率成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.467:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.467:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.467:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.467:"执行接口函数SimuCorn_set_baudrate完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.468:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.468:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.468:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.469:"=========【测试槽位设置波特率】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.469:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.470:"=============执行【测试槽位开启透传】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.470:"执行接口函数SimuCorn_open_transport"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.470:callWorkFunction: SimuCorn_open_transport                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.471:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.471:"工装发送：68 42 00 42 00 68 40 00 00 00 00 00 22 60 00 00 01 00 02 01 3C 00 02 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.471:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.471:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.471:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.471:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.471:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.471:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.471:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.471:"全部槽位开启透传成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.572:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.572:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.572:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.572:"执行接口函数SimuCorn_open_transport完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.573:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.574:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.574:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.574:"=========【测试槽位开启透传】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.574:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.575:"=============执行【测试槽位透传关闭】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.575:"执行接口函数SimuCorn_close_transport"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.575:callWorkFunction: SimuCorn_close_transport                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.576:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.576:"工装发送：68 42 00 42 00 68 40 00 00 00 00 00 22 60 00 00 01 00 03 00 3C 00 02 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.576:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.576:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.576:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.576:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.576:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.576:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.576:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.576:"工装发送：68 42 00 42 00 68 40 00 00 00 00 00 22 60 00 00 01 00 04 00 3C 00 03 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.577:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.577:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.577:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.577:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.577:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.577:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.577:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.577:"工装发送：68 42 00 42 00 68 40 00 00 00 00 00 22 60 00 00 01 00 05 00 3C 00 04 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.578:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.578:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.578:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.578:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.578:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.578:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.578:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.578:"工装发送：68 42 00 42 00 68 40 00 00 00 00 00 22 60 00 00 01 00 06 00 3C 00 05 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.578:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.578:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.578:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.579:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.579:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.579:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.579:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.579:"工装发送：68 42 00 42 00 68 40 00 00 00 00 00 22 60 00 00 01 00 07 00 3C 00 06 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.579:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.579:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.579:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.579:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.579:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.579:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.579:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.579:"工装发送：68 42 00 42 00 68 40 00 00 00 00 00 22 60 00 00 01 00 08 00 3C 00 07 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.580:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.580:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.580:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.580:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.580:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.580:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.580:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.580:"全部槽位关闭透传成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.681:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.681:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.681:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.681:"执行接口函数SimuCorn_close_transport完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.682:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.682:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.682:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.683:"=========【测试槽位透传关闭】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.683:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.684:"=============执行【测试槽位上电】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.684:"执行接口函数SimuCorn_power_on"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.684:callWorkFunction: SimuCorn_power_on                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.684:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.684:"工装发送：68 3E 00 3E 00 68 40 00 00 00 00 00 21 60 00 00 02 00 02 02 01 C8 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.685:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.685:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.685:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.685:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.685:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.685:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.685:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.685:"工装发送：68 3E 00 3E 00 68 40 00 00 00 00 00 21 60 00 00 02 00 03 02 01 C9 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.686:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.686:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.686:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.686:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.686:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.686:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.686:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.686:"工装发送：68 3E 00 3E 00 68 40 00 00 00 00 00 21 60 00 00 02 00 04 02 01 CA 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.686:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.686:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.686:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.687:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.687:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.687:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.687:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.687:"工装发送：68 3E 00 3E 00 68 40 00 00 00 00 00 21 60 00 00 02 00 05 02 01 CB 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.687:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.687:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.687:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.687:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.687:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.687:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.687:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.687:"工装发送：68 3E 00 3E 00 68 40 00 00 00 00 00 21 60 00 00 02 00 06 02 01 CC 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.688:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.688:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.688:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.688:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.688:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.688:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.688:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.688:"工装发送：68 3E 00 3E 00 68 40 00 00 00 00 00 21 60 00 00 02 00 07 02 01 CD 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.689:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.689:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.689:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.689:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.689:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.689:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.689:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.689:"工装发送：68 3E 00 3E 00 68 40 00 00 00 00 00 21 60 00 00 02 00 08 02 01 CE 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.689:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.689:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.689:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.689:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.689:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.690:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.690:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.690:"所有槽位上电成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.791:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.791:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.791:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.791:"执行接口函数SimuCorn_power_on完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.792:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.792:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.792:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.793:"=========【测试槽位上电】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.793:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.794:"=============执行【设置强电通路闭合(槽位5,6)】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.794:"执行接口函数SimuCorn_get_set_simu_relay"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.794:callWorkFunction: SimuCorn_get_set_simu_relay                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.794:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.794:"工装发送：68 42 00 42 00 68 40 00 00 00 00 00 22 60 00 00 20 00 01 02 03 04 EC 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.796:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.796:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.796:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.796:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.796:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.796:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.796:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.796:"设置强电通路成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.897:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.897:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.897:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.897:"执行接口函数SimuCorn_get_set_simu_relay完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.898:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.898:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.898:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.899:"=========【设置强电通路闭合(槽位5,6)】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.899:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.900:"=============执行【设置强电通路闭合(槽位7,8)】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.900:"执行接口函数SimuCorn_get_set_simu_relay"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.900:callWorkFunction: SimuCorn_get_set_simu_relay                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.900:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.900:"工装发送：68 42 00 42 00 68 40 00 00 00 00 00 22 60 00 00 20 00 11 12 13 14 2C 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.904:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.904:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.905:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.905:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.905:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.905:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.905:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:51.905:"设置强电通路成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:52.006:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:52.006:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:52.006:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:52.006:"执行接口函数SimuCorn_get_set_simu_relay完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:52.007:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:52.007:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:52.007:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:52.008:"=========【设置强电通路闭合(槽位7,8)】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:52.008:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:52.009:"=============执行【执行延时】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:52.009:"执行接口函数Func_Delay"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:52.009:callWorkFunction: Func_Delay                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:52.009:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:52.009:"延时时间为5s"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:52.009:"uTimeSecond_ms:5000"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:55.031:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.053:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.053:"延时时间到"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.154:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.154:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.154:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.154:"执行接口函数Func_Delay完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.155:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.155:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.156:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.156:"=========【执行延时】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.156:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.157:"=============执行【Step2-参数区初始化】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.158:"执行接口函数CCO_AFN51_F2"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.158:callWorkFunction: CCO_AFN51_F2                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.158:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.661:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.661:"开始组帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.661:"组帧结束"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.661:"367.2Send:参数初始化(51H-F2)：=>68 0F 00 43 00 00 00 00 00 E1 51 02 00 77 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.661:"槽位2透传:687E007E006840000000000022600000010002013C00680F00430000000000E151020077167D16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.661:"工装发送：68 7E 00 7E 00 68 40 00 00 00 00 00 22 60 00 00 01 00 02 01 3C 00 68 0F 00 43 00 00 00 00 00 E1 51 02 00 77 16 7D 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.679:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.679:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.679:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.679:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.679:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.679:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.679:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.727:"工装接收：68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 80 00 00 00 00 00 E1 50 01 00 B2 16 05 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.727:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.727:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.727:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.727:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 80 00 00 00 00 00 E1 50 01 00 B2 16 05 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.727:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.727:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.727:"020F00680F00800000000000E1500100B216"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:35:58.727:"透传报文内容:68 0f 00 80 00 00 00 00 00 e1 50 01 00 b2 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.749:"uTimeSecond_ms:20000"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.749:"查找结果: iret=0, wStart=0, dwOutLen=15, dwStreamLen=15, dwFindPos=0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.749:"Receive:<= 68 0F 00 80 00 00 00 00 00 E1 50 01 00 B2 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.749:"解析：功能码-AFN=50H,Fn=1："                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.749:"参数区初始化成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.749:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.749:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.749:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.749:"执行接口函数CCO_AFN51_F2完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.752:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.752:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.752:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.752:"=========【Step2-参数区初始化】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.752:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.753:"=============执行【执行延时】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.754:"执行接口函数Func_Delay"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.754:callWorkFunction: Func_Delay                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.754:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.754:"延时时间为5s"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:01.754:"uTimeSecond_ms:5000"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:04.776:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:07.798:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:07.798:"延时时间到"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:07.899:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:07.899:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:07.899:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:07.899:"执行接口函数Func_Delay完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:07.900:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:07.901:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:07.901:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:07.901:"=========【执行延时】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:07.901:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:07.902:"=============执行【Step3-AFN53-F4读取本地通信模块厂商代码和版本信息】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:07.903:"执行接口函数CCO_AFN53_F4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:07.903:callWorkFunction: CCO_AFN53_F4                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:07.903:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.406:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.406:"开始组帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.406:"组帧结束"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.406:"367.2Send:本地通信模块厂商代码和版本信息(53H-F4)：=>68 16 00 43 00 00 00 00 00 E2 53 08 00 02 01 00 00 00 00 00 83 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.406:"槽位2透传:689A009A006840000000000022600000010002013C00681600430000000000E25308000201000000000083169C16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.406:"工装发送：68 9A 00 9A 00 68 40 00 00 00 00 00 22 60 00 00 01 00 02 01 3C 00 68 16 00 43 00 00 00 00 00 E2 53 08 00 02 01 00 00 00 00 00 83 16 9C 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.432:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.432:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.432:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.432:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.432:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.432:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.432:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.483:"工装接收：68 BA 00 BA 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 1F 00 68 1F 00 80 00 00 00 00 00 E2 53 08 00 02 01 00 00 00 00 00 FF FF FF FF FF FF FF FF FF B7 16 2F 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.483:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.483:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.483:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.483:"68 BA 00 BA 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 1F 00 68 1F 00 80 00 00 00 00 00 E2 53 08 00 02 01 00 00 00 00 00 FF FF FF FF FF FF FF FF FF B7 16 2F 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.483:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.483:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.483:"021F00681F00800000000000E253080002010000000000FFFFFFFFFFFFFFFFFFB716"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:08.483:"透传报文内容:68 1f 00 80 00 00 00 00 00 e2 53 08 00 02 01 00 00 00 00 00 ff ff ff ff ff ff ff ff ff b7 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.505:"uTimeSecond_ms:5000"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.505:"查找结果: iret=0, wStart=0, dwOutLen=31, dwStreamLen=31, dwFindPos=0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.505:"Receive:<= 68 1F 00 80 00 00 00 00 00 E2 53 08 00 02 01 00 00 00 00 00 FF FF FF FF FF FF FF FF FF B7 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.505:"解析：功能码-AFN=53H,Fn=4："                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.505:"通信对象类型:本地通信模块网络管理模块（路由模块）,通信对象地址:000000000001"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.505:"通信对象类型:本地通信模块网络管理模块（路由模块）,通信对象地址:000000000001厂商代码：\uFFFF\uFFFF，芯片代码：\uFFFF\uFFFF，版本日期：ffffff，版本：ffff"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.505:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.505:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.505:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.505:"执行接口函数CCO_AFN53_F4完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.508:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.508:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.508:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.508:"=========【Step3-AFN53-F4读取本地通信模块厂商代码和版本信息】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.508:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.510:"=============执行【Step4-AFN05-F51读取通信速率协商，默认应为9600】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.510:"执行接口函数CCO_AFN53_F6"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.510:callWorkFunction: CCO_AFN53_F6                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:11.510:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.014:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.014:"开始组帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.014:"组帧结束"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.014:"367.2Send:查询本地通信模块串口当前通信参数(53H-F6)：=>68 0F 00 43 00 00 00 00 00 E3 53 20 00 99 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.014:"槽位2透传:687E007E006840000000000022600000010002013C00680F00430000000000E35320009916C116"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.014:"工装发送：68 7E 00 7E 00 68 40 00 00 00 00 00 22 60 00 00 01 00 02 01 3C 00 68 0F 00 43 00 00 00 00 00 E3 53 20 00 99 16 C1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.032:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.032:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.032:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.032:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.032:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.032:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.032:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.086:"工装接收：68 8A 00 8A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 13 00 68 13 00 80 00 00 00 00 00 E3 53 20 00 06 06 78 00 5A 16 5D 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.086:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.086:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.086:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.086:"68 8A 00 8A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 13 00 68 13 00 80 00 00 00 00 00 E3 53 20 00 06 06 78 00 5A 16 5D 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.086:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.086:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.086:"021300681300800000000000E3532000060678005A16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:12.086:"透传报文内容:68 13 00 80 00 00 00 00 00 e3 53 20 00 06 06 78 00 5a 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.108:"uTimeSecond_ms:5000"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.108:"查找结果: iret=0, wStart=0, dwOutLen=19, dwStreamLen=19, dwFindPos=0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.108:"Receive:<= 68 13 00 80 00 00 00 00 00 E3 53 20 00 06 06 78 00 5A 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.108:"解析：功能码-AFN=53H,Fn=6："                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.108:"模块当前通信速率:9600bps,允许协商最高通信速率:9600bps,自动恢复为默认通信速率时长:120"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.108:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.108:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.108:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.108:"执行接口函数CCO_AFN53_F6完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.110:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.111:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.111:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.111:"=========【Step4-AFN05-F51读取通信速率协商，默认应为9600】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.111:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.112:"=============执行【AFN55-F13设置本地通信模块串口允许协商最高通信速率为115200】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.113:"执行接口函数CCO_AFN55_F13"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.113:callWorkFunction: CCO_AFN55_F13                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.113:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.113:"设置波特率：115200bps"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.617:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.617:"开始组帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.617:"组帧结束"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.617:"367.2Send:本地通信模块串口允许协商最高通信速率设置(55H-F13)：=>68 10 00 43 00 00 00 00 00 E4 55 10 01 0A 97 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.617:"槽位2透传:68820082006840000000000022600000010002013C00681000430000000000E45510010A9716BE16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.617:"工装发送：68 82 00 82 00 68 40 00 00 00 00 00 22 60 00 00 01 00 02 01 3C 00 68 10 00 43 00 00 00 00 00 E4 55 10 01 0A 97 16 BE 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.636:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.636:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.636:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.636:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.636:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.636:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.636:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.714:"工装接收：68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 80 00 00 00 00 00 E4 50 01 00 B5 16 0B 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.714:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.714:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.714:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.714:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 80 00 00 00 00 00 E4 50 01 00 B5 16 0B 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.714:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.714:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.714:"020F00680F00800000000000E4500100B516"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:15.714:"透传报文内容:68 0f 00 80 00 00 00 00 00 e4 50 01 00 b5 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.635:"uTimeSecond_ms:5000"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.635:"查找结果: iret=0, wStart=0, dwOutLen=15, dwStreamLen=15, dwFindPos=0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.635:"Receive:<= 68 0F 00 80 00 00 00 00 00 E4 50 01 00 B5 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.635:"解析：功能码-AFN=50H,Fn=1："                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.635:"设置成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.635:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.635:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.635:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.635:"执行接口函数CCO_AFN55_F13完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.637:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.637:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.637:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.637:"=========【AFN55-F13设置本地通信模块串口允许协商最高通信速率为115200】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.637:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.638:"=============执行【Step5-AFN55-F11设置本地通信模块串口通信速率协商为115200】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.639:"执行接口函数CCO_AFN55_F11"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.639:callWorkFunction: CCO_AFN55_F11                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.639:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:18.639:"设置波特率：115200bps"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.143:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.143:"开始组帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.143:"组帧结束"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.143:"367.2Send:本地通信模块串口通信速率协商(55H-F11)：=>68 10 00 43 00 00 00 00 00 E5 55 04 01 0A 8C 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.143:"槽位2透传:68820082006840000000000022600000010002013C00681000430000000000E55504010A8C16A816"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.143:"工装发送：68 82 00 82 00 68 40 00 00 00 00 00 22 60 00 00 01 00 02 01 3C 00 68 10 00 43 00 00 00 00 00 E5 55 04 01 0A 8C 16 A8 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.161:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.161:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.161:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.161:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.161:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.161:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.161:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.211:"工装接收：68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 80 00 00 00 00 00 E5 50 01 00 B6 16 0D 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.211:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.211:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.211:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.211:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 80 00 00 00 00 00 E5 50 01 00 B6 16 0D 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.211:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.211:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.211:"020F00680F00800000000000E5500100B616"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:19.211:"透传报文内容:68 0f 00 80 00 00 00 00 00 e5 50 01 00 b6 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.233:"uTimeSecond_ms:5000"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.233:"查找结果: iret=0, wStart=0, dwOutLen=15, dwStreamLen=15, dwFindPos=0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.233:"Receive:<= 68 0F 00 80 00 00 00 00 00 E5 50 01 00 B6 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.233:"解析：功能码-AFN=50H,Fn=1："                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.233:"本地通信模块串口通信速率协商成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.233:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.233:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.233:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.233:"执行接口函数CCO_AFN55_F11完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.236:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.236:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.236:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.236:"=========【Step5-AFN55-F11设置本地通信模块串口通信速率协商为115200】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.236:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.237:"=============执行【测试槽位设置波特率115200】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.237:"执行接口函数SimuCorn_set_baudrate"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.237:callWorkFunction: SimuCorn_set_baudrate                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.238:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.238:"工装发送：68 3A 00 3A 00 68 40 00 00 00 00 00 22 60 00 00 08 00 02 03 CF 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.238:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.238:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.238:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.238:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.238:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.238:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.239:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.239:"全部槽位设置波特率成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.340:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.340:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.340:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.340:"执行接口函数SimuCorn_set_baudrate完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.341:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.341:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.341:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.341:"=========【测试槽位设置波特率115200】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.341:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.343:"=============执行【执行延时】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.343:"执行接口函数Func_Delay"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.343:callWorkFunction: Func_Delay                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.343:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.344:"延时时间为2s"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:22.344:"uTimeSecond_ms:2000"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.366:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.366:"延时时间到"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.467:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.467:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.467:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.467:"执行接口函数Func_Delay完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.468:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.469:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.469:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.469:"=========【执行延时】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.469:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.470:"=============执行【Step6-AFN55-F12设置自动恢复为默认通信速率时长20分钟】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.470:"执行接口函数CCO_AFN55_F12"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.470:callWorkFunction: CCO_AFN55_F12                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.471:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.974:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.974:"开始组帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.974:"组帧结束"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.974:"367.2Send:设置自动恢复默认通信速率时长(55H-F12)：=>68 11 00 43 00 00 00 00 00 E6 55 08 01 14 00 9B 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.974:"槽位2透传:68860086006840000000000022600000010002013C00681100430000000000E655080114009B16C716"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.974:"工装发送：68 86 00 86 00 68 40 00 00 00 00 00 22 60 00 00 01 00 02 01 3C 00 68 11 00 43 00 00 00 00 00 E6 55 08 01 14 00 9B 16 C7 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.976:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.976:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.976:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.976:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.976:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.976:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:25.976:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:26.033:"工装接收：68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 80 00 00 00 00 00 E6 50 01 00 B7 16 0F 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:26.033:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:26.033:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:26.033:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:26.033:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 80 00 00 00 00 00 E6 50 01 00 B7 16 0F 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:26.033:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:26.033:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:26.034:"020F00680F00800000000000E6500100B716"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:26.034:"透传报文内容:68 0f 00 80 00 00 00 00 00 e6 50 01 00 b7 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.056:"uTimeSecond_ms:5000"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.056:"查找结果: iret=0, wStart=0, dwOutLen=15, dwStreamLen=15, dwFindPos=0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.056:"Receive:<= 68 0F 00 80 00 00 00 00 00 E6 50 01 00 B7 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.056:"解析：功能码-AFN=50H,Fn=1："                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.056:"设置成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.056:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.056:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.056:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.056:"执行接口函数CCO_AFN55_F12完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.059:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.059:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.059:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.059:"=========【Step6-AFN55-F12设置自动恢复为默认通信速率时长20分钟】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.060:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.061:"=============执行【Step7-AFN05-F51读取通信速率协商，应为115200】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.061:"执行接口函数CCO_AFN53_F6"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.061:callWorkFunction: CCO_AFN53_F6                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.061:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.565:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.565:"开始组帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.565:"组帧结束"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.565:"367.2Send:查询本地通信模块串口当前通信参数(53H-F6)：=>68 0F 00 43 00 00 00 00 00 E7 53 20 00 9D 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.565:"槽位2透传:687E007E006840000000000022600000010002013C00680F00430000000000E75320009D16C916"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.565:"工装发送：68 7E 00 7E 00 68 40 00 00 00 00 00 22 60 00 00 01 00 02 01 3C 00 68 0F 00 43 00 00 00 00 00 E7 53 20 00 9D 16 C9 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.567:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.567:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.567:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.567:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.567:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.567:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.567:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.615:"工装接收：68 8A 00 8A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 13 00 68 13 00 80 00 00 00 00 00 E7 53 20 00 0A 0A 14 00 02 16 AD 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.615:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.615:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.615:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.615:"68 8A 00 8A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 13 00 68 13 00 80 00 00 00 00 00 E7 53 20 00 0A 0A 14 00 02 16 AD 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.615:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.615:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.615:"021300681300800000000000E75320000A0A14000216"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:29.615:"透传报文内容:68 13 00 80 00 00 00 00 00 e7 53 20 00 0a 0a 14 00 02 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.636:"uTimeSecond_ms:5000"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.636:"查找结果: iret=0, wStart=0, dwOutLen=19, dwStreamLen=19, dwFindPos=0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.636:"Receive:<= 68 13 00 80 00 00 00 00 00 E7 53 20 00 0A 0A 14 00 02 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.636:"解析：功能码-AFN=53H,Fn=6："                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.636:"模块当前通信速率:115200bps,允许协商最高通信速率:115200bps,自动恢复为默认通信速率时长:20"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.636:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.636:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.636:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.636:"执行接口函数CCO_AFN53_F6完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.639:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.639:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.639:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.639:"=========【Step7-AFN05-F51读取通信速率协商，应为115200】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.639:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.640:"=============执行【Step8-延时20分钟】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.641:"执行接口函数Func_Delay_OnlyWait"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.641:callWorkFunction: Func_Delay_OnlyWait                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.641:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:36:32.641:"延时时间为1200s"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:39:32.970:"RocketMq上报工况(设备输出信息):{\"devSeatNo\":\"1\",\"machNo\":\"\",\"occurTime\":\"2026-08-27 10:39:32\",\"plantNo\":\"YL-101601\",\"realTimeValues\":[{\"outParaName\":\"volage\",\"outParaValue\":\"220V\"}],\"remarks\":\"null\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:39:32.970:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-27 10:56:12.968:"RocketMq上报工况(设备输出信息):{\"devSeatNo\":\"1\",\"machNo\":\"\",\"occurTime\":\"2026-08-27 10:56:12\",\"plantNo\":\"YL-101601\",\"realTimeValues\":[{\"outParaName\":\"volage\",\"outParaValue\":\"220V\"}],\"remarks\":\"null\"}"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:12.968:QAbstractSocket::waitForDisconnected() is not allowed in UnconnectedState                            File: Line:0 Function: Type:Warning:
+DateTime:2026-08-27 10:56:32.642:"延时时间到"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.743:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.743:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.743:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.743:"执行接口函数Func_Delay_OnlyWait完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.745:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.745:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.746:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.746:"=========【Step8-延时20分钟】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.746:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.747:"=============执行【测试槽位设置波特率9600】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.747:"执行接口函数SimuCorn_set_baudrate"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.747:callWorkFunction: SimuCorn_set_baudrate                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.747:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.748:"工装发送：68 3A 00 3A 00 68 40 00 00 00 00 00 22 60 00 00 08 00 02 02 CE 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.748:"工装接收：68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 4F 14 02 00 28 16 F1 16 68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 50 14 02 00 29 16 F3 16 68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 51 14 02 00 2A 16 F5 16 68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 52 14 02 00 2B 16 F7 16 68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 53 14 02 00 2C 16 F9 16 68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 54 14 02 00 2D 16 FB 16 68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 55 14 02 00 2E 16 FD 16 68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 56 14 02 00 2F 16 FF 16 68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 57 14 02 00 30 16 01 16 68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 58 14 02 00 31 16 03 16 68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 59 14 02 00 32 16 05 16 68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 5A 14 02 00 33 16 07 16 68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 5B 14 02 00 34 16 09 16 68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 5C 14 02 00 35 16 0B 16 68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.748:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.748:"frameList.size():15"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.748:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.748:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 4F 14 02 00 28 16 F1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"020F00680F00C300000000004F1402002816"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"透传报文内容:68 0f 00 c3 00 00 00 00 00 4f 14 02 00 28 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 50 14 02 00 29 16 F3 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"020F00680F00C30000000000501402002916"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"透传报文内容:68 0f 00 c3 00 00 00 00 00 50 14 02 00 29 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 51 14 02 00 2A 16 F5 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"020F00680F00C30000000000511402002A16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"透传报文内容:68 0f 00 c3 00 00 00 00 00 51 14 02 00 2a 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 52 14 02 00 2B 16 F7 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"020F00680F00C30000000000521402002B16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"透传报文内容:68 0f 00 c3 00 00 00 00 00 52 14 02 00 2b 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 53 14 02 00 2C 16 F9 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"020F00680F00C30000000000531402002C16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.749:"透传报文内容:68 0f 00 c3 00 00 00 00 00 53 14 02 00 2c 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 54 14 02 00 2D 16 FB 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"020F00680F00C30000000000541402002D16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"透传报文内容:68 0f 00 c3 00 00 00 00 00 54 14 02 00 2d 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 55 14 02 00 2E 16 FD 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"020F00680F00C30000000000551402002E16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"透传报文内容:68 0f 00 c3 00 00 00 00 00 55 14 02 00 2e 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 56 14 02 00 2F 16 FF 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"020F00680F00C30000000000561402002F16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"透传报文内容:68 0f 00 c3 00 00 00 00 00 56 14 02 00 2f 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 57 14 02 00 30 16 01 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"020F00680F00C30000000000571402003016"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"透传报文内容:68 0f 00 c3 00 00 00 00 00 57 14 02 00 30 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 58 14 02 00 31 16 03 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.750:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"020F00680F00C30000000000581402003116"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"透传报文内容:68 0f 00 c3 00 00 00 00 00 58 14 02 00 31 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 59 14 02 00 32 16 05 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"020F00680F00C30000000000591402003216"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"透传报文内容:68 0f 00 c3 00 00 00 00 00 59 14 02 00 32 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 5A 14 02 00 33 16 07 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"020F00680F00C300000000005A1402003316"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"透传报文内容:68 0f 00 c3 00 00 00 00 00 5a 14 02 00 33 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 5B 14 02 00 34 16 09 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"020F00680F00C300000000005B1402003416"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"透传报文内容:68 0f 00 c3 00 00 00 00 00 5b 14 02 00 34 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 C3 00 00 00 00 00 5C 14 02 00 35 16 0B 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"020F00680F00C300000000005C1402003516"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"透传报文内容:68 0f 00 c3 00 00 00 00 00 5c 14 02 00 35 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.751:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.752:"全部槽位设置波特率成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.853:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.853:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.853:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.853:"执行接口函数SimuCorn_set_baudrate完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.854:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.854:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.854:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.854:"=========【测试槽位设置波特率9600】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.854:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.855:"=============执行【Step9-AFN05-F51读取通信速率协商，默认应为9600】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.855:"执行接口函数CCO_AFN53_F6"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.855:callWorkFunction: CCO_AFN53_F6                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:32.855:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:33.359:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:33.359:"开始组帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:33.359:"组帧结束"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:33.359:"367.2Send:查询本地通信模块串口当前通信参数(53H-F6)：=>68 0F 00 43 00 00 00 00 00 E8 53 20 00 9E 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:33.359:"槽位2透传:687E007E006840000000000022600000010002013C00680F00430000000000E85320009E16CB16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:33.359:"工装发送：68 7E 00 7E 00 68 40 00 00 00 00 00 22 60 00 00 01 00 02 01 3C 00 68 0F 00 43 00 00 00 00 00 E8 53 20 00 9E 16 CB 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:33.377:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:33.377:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:33.377:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:33.377:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:33.377:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:33.377:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:33.377:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:36.399:"uTimeSecond_ms:5000"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:39.421:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.443:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.443:"等待正确报文超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.443:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.443:接口函数调用成功，返回的结果为 -999                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.443:"外部传入的para：0，返回的result：-999,返回的pValRet：-999"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.443:返回结果不满足预期值                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.445:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.445:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.446:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.446:"=========【Step9-AFN05-F51读取通信速率协商，默认应为9600】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.446:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.447:"=============执行【Step10-AFN55-F13设置本地通信模块串口允许协商最高通信速率为115200】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.447:"执行接口函数CCO_AFN55_F13"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.447:callWorkFunction: CCO_AFN55_F13                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.447:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.448:"设置波特率：115200bps"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.952:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.952:"开始组帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.952:"组帧结束"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.952:"367.2Send:本地通信模块串口允许协商最高通信速率设置(55H-F13)：=>68 10 00 43 00 00 00 00 00 E9 55 10 01 0A 9C 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.952:"槽位2透传:68820082006840000000000022600000010002013C00681000430000000000E95510010A9C16C816"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.952:"工装发送：68 82 00 82 00 68 40 00 00 00 00 00 22 60 00 00 01 00 02 01 3C 00 68 10 00 43 00 00 00 00 00 E9 55 10 01 0A 9C 16 C8 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.970:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.970:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.970:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.970:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.970:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.970:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:42.970:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:45.992:"uTimeSecond_ms:5000"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:46.210:"工装接收：68 46 00 46 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 02 00 41 FF 47 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:46.210:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:46.210:"rameList.size():"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:46.210:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:46.210:"68 46 00 46 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 02 00 41 FF 47 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:46.210:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:46.210:"工装回复透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:46.210:"02020041FF"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:46.210:"内容:41 ff"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:49.030:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.054:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.054:"等待正确报文超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.054:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.054:接口函数调用成功，返回的结果为 -999                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.054:"外部传入的para：0，返回的result：-999,返回的pValRet：-999"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.054:返回结果不满足预期值                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.056:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.056:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.056:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.057:"=========【Step10-AFN55-F13设置本地通信模块串口允许协商最高通信速率为115200】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.057:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.058:"=============执行【Step11-AFN55-F11设置本地通信模块串口通信速率协商为115200，应回复成功】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.058:"执行接口函数CCO_AFN55_F11"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.058:callWorkFunction: CCO_AFN55_F11                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.058:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.058:"设置波特率：115200bps"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.562:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.562:"开始组帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.562:"组帧结束"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.562:"367.2Send:本地通信模块串口通信速率协商(55H-F11)：=>68 10 00 43 00 00 00 00 00 EA 55 04 01 0A 91 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.562:"槽位2透传:68820082006840000000000022600000010002013C00681000430000000000EA5504010A9116B216"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.562:"工装发送：68 82 00 82 00 68 40 00 00 00 00 00 22 60 00 00 01 00 02 01 3C 00 68 10 00 43 00 00 00 00 00 EA 55 04 01 0A 91 16 B2 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.581:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.581:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.581:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.581:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.581:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.581:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:52.581:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:55.603:"uTimeSecond_ms:5000"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:56:58.625:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.647:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.647:"等待正确报文超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.647:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.647:接口函数调用成功，返回的结果为 -999                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.647:"外部传入的para：0，返回的result：-999,返回的pValRet：-999"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.647:返回结果不满足预期值                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.650:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.650:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.650:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.650:"=========【Step11-AFN55-F11设置本地通信模块串口通信速率协商为115200，应回复成功】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.650:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.651:"=============执行【测试槽位设置波特率115200】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.652:"执行接口函数SimuCorn_set_baudrate"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.652:callWorkFunction: SimuCorn_set_baudrate                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.652:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.652:"工装发送：68 3A 00 3A 00 68 40 00 00 00 00 00 22 60 00 00 08 00 02 03 CF 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.652:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.652:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.652:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.652:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.652:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.652:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.653:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.653:"全部槽位设置波特率成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.753:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.753:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.753:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.753:"执行接口函数SimuCorn_set_baudrate完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.754:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.754:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.755:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.755:"=========【测试槽位设置波特率115200】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.755:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.756:"=============执行【AFN55-F13设置本地通信模块串口允许协商最高通信速率为9600】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.756:"执行接口函数CCO_AFN55_F13"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.756:callWorkFunction: CCO_AFN55_F13                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.756:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:01.756:"设置波特率：9600bps"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.261:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.261:"开始组帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.261:"组帧结束"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.261:"367.2Send:本地通信模块串口允许协商最高通信速率设置(55H-F13)：=>68 10 00 43 00 00 00 00 00 EB 55 10 01 06 9A 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.261:"槽位2透传:68820082006840000000000022600000010002013C00681000430000000000EB551001069A16C416"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.261:"工装发送：68 82 00 82 00 68 40 00 00 00 00 00 22 60 00 00 01 00 02 01 3C 00 68 10 00 43 00 00 00 00 00 EB 55 10 01 06 9A 16 C4 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.263:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.263:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.263:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.263:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.263:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.263:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.263:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.323:"工装接收：68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 80 00 00 00 00 00 EB 50 01 00 BC 16 19 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.323:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.323:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.323:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.323:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 80 00 00 00 00 00 EB 50 01 00 BC 16 19 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.323:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.323:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.323:"020F00680F00800000000000EB500100BC16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:02.323:"透传报文内容:68 0f 00 80 00 00 00 00 00 eb 50 01 00 bc 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.345:"uTimeSecond_ms:5000"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.345:"查找结果: iret=0, wStart=0, dwOutLen=15, dwStreamLen=15, dwFindPos=0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.345:"Receive:<= 68 0F 00 80 00 00 00 00 00 EB 50 01 00 BC 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.345:"解析：功能码-AFN=50H,Fn=1："                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.345:"设置成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.345:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.345:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.345:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.345:"执行接口函数CCO_AFN55_F13完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.347:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.347:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.347:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.347:"=========【AFN55-F13设置本地通信模块串口允许协商最高通信速率为9600】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.347:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.349:"=============执行【Step12-AFN55-F11设置本地通信模块串口通信速率协商为9600】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.349:"执行接口函数CCO_AFN55_F11"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.349:callWorkFunction: CCO_AFN55_F11                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.349:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.349:"设置波特率：9600bps"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.852:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.852:"开始组帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.852:"组帧结束"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.852:"367.2Send:本地通信模块串口通信速率协商(55H-F11)：=>68 10 00 43 00 00 00 00 00 EC 55 04 01 06 8F 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.852:"槽位2透传:68820082006840000000000022600000010002013C00681000430000000000EC550401068F16AE16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.852:"工装发送：68 82 00 82 00 68 40 00 00 00 00 00 22 60 00 00 01 00 02 01 3C 00 68 10 00 43 00 00 00 00 00 EC 55 04 01 06 8F 16 AE 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.854:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.854:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.854:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.854:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.854:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.854:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.854:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.901:"工装接收：68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 80 00 00 00 00 00 EC 50 01 00 BD 16 1B 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.901:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.901:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.901:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.901:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 80 00 00 00 00 00 EC 50 01 00 BD 16 1B 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.901:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.901:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.901:"020F00680F00800000000000EC500100BD16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:05.901:"透传报文内容:68 0f 00 80 00 00 00 00 00 ec 50 01 00 bd 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.923:"uTimeSecond_ms:5000"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.923:"查找结果: iret=0, wStart=0, dwOutLen=15, dwStreamLen=15, dwFindPos=0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.923:"Receive:<= 68 0F 00 80 00 00 00 00 00 EC 50 01 00 BD 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.923:"解析：功能码-AFN=50H,Fn=1："                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.923:"本地通信模块串口通信速率协商成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.923:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.923:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.923:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.923:"执行接口函数CCO_AFN55_F11完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.926:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.926:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.926:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.926:"=========【Step12-AFN55-F11设置本地通信模块串口通信速率协商为9600】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.926:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.930:"=============执行【测试槽位设置波特率9600】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.930:"执行接口函数SimuCorn_set_baudrate"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.930:callWorkFunction: SimuCorn_set_baudrate                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.930:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.930:"工装发送：68 3A 00 3A 00 68 40 00 00 00 00 00 22 60 00 00 08 00 02 02 CE 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.930:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.930:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.930:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.930:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.930:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.930:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.930:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:08.930:"全部槽位设置波特率成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.032:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.032:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.032:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.032:"执行接口函数SimuCorn_set_baudrate完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.033:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.033:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.033:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.034:"=========【测试槽位设置波特率9600】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.034:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.035:"=============执行【Step13-AFN55-F12设置自动恢复为默认通信速率时长120分钟】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.035:"执行接口函数CCO_AFN55_F12"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.035:callWorkFunction: CCO_AFN55_F12                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.035:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.538:"等待工装回复超时"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.538:"开始组帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.538:"组帧结束"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.538:"367.2Send:设置自动恢复默认通信速率时长(55H-F12)：=>68 11 00 43 00 00 00 00 00 ED 55 08 01 78 00 06 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.538:"槽位2透传:68860086006840000000000022600000010002013C00681100430000000000ED550801780006169D16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.538:"工装发送：68 86 00 86 00 68 40 00 00 00 00 00 22 60 00 00 01 00 02 01 3C 00 68 11 00 43 00 00 00 00 00 ED 55 08 01 78 00 06 16 9D 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.558:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.558:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.558:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.558:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.558:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.558:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.558:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.636:"工装接收：68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 80 00 00 00 00 00 ED 50 01 00 BE 16 1D 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.636:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.636:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.636:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.636:"68 7A 00 7A 00 68 80 00 00 00 00 00 22 60 00 00 01 00 02 0F 00 68 0F 00 80 00 00 00 00 00 ED 50 01 00 BE 16 1D 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.636:"解码完成，功能码: 4"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.636:"工装接收到透传报文"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.636:"020F00680F00800000000000ED500100BE16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:09.636:"透传报文内容:68 0f 00 80 00 00 00 00 00 ed 50 01 00 be 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.558:"uTimeSecond_ms:5000"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.558:"查找结果: iret=0, wStart=0, dwOutLen=15, dwStreamLen=15, dwFindPos=0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.558:"Receive:<= 68 0F 00 80 00 00 00 00 00 ED 50 01 00 BE 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.558:"解析：功能码-AFN=50H,Fn=1："                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.558:"设置成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.558:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.558:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.558:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.558:"执行接口函数CCO_AFN55_F12完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.561:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.561:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.561:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.561:"=========【Step13-AFN55-F12设置自动恢复为默认通信速率时长120分钟】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.561:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.563:"=============执行【测试槽位透传关闭】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.563:"执行接口函数SimuCorn_close_transport"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.563:callWorkFunction: SimuCorn_close_transport                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.563:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.563:"工装发送：68 42 00 42 00 68 40 00 00 00 00 00 22 60 00 00 01 00 02 00 3C 00 01 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.564:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.564:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.564:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.564:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.564:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.564:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.564:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.564:"全部槽位关闭透传成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.665:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.665:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.665:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.665:"执行接口函数SimuCorn_close_transport完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.666:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.667:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.667:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.667:"=========【测试槽位透传关闭】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.667:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.668:"=============执行【测试槽位下电】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.668:"执行接口函数SimuCorn_power_off"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.668:callWorkFunction: SimuCorn_power_off                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.668:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.669:"工装发送：68 3E 00 3E 00 68 40 00 00 00 00 00 21 60 00 00 02 00 01 02 00 C6 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.669:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.669:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.669:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.669:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.669:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.669:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.669:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.669:"工装发送：68 3E 00 3E 00 68 40 00 00 00 00 00 21 60 00 00 02 00 02 02 00 C7 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.670:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.670:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.670:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.670:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.670:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.670:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.670:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.670:"工装发送：68 3E 00 3E 00 68 40 00 00 00 00 00 21 60 00 00 02 00 03 02 00 C8 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.671:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.671:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.671:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.671:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.671:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.671:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.671:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.671:"工装发送：68 3E 00 3E 00 68 40 00 00 00 00 00 21 60 00 00 02 00 04 02 00 C9 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.671:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.671:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.671:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.671:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.671:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.671:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.671:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.672:"工装发送：68 3E 00 3E 00 68 40 00 00 00 00 00 21 60 00 00 02 00 05 02 00 CA 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.672:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.672:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.672:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.672:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.672:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.672:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.672:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.672:"工装发送：68 3E 00 3E 00 68 40 00 00 00 00 00 21 60 00 00 02 00 06 02 00 CB 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.673:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.673:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.673:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.673:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.673:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.673:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.673:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.673:"工装发送：68 3E 00 3E 00 68 40 00 00 00 00 00 21 60 00 00 02 00 07 02 00 CC 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.673:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.674:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.674:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.674:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.674:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.674:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.674:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.674:"工装发送：68 3E 00 3E 00 68 40 00 00 00 00 00 21 60 00 00 02 00 08 02 00 CD 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.674:"工装接收：68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.674:"m_baRecvMsg:"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.674:"frameList.size():1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.674:"进入报文解析"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.674:"68 32 00 32 00 68 80 00 00 00 00 00 00 60 00 00 01 00 E1 16"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.674:"解码完成，功能码: 1"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.674:"工装回复确认帧"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.674:"所有槽位下电成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.776:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.776:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.776:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.776:"执行接口函数SimuCorn_power_off完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.777:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.777:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.778:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.778:"=========【测试槽位下电】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.778:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.779:"=============执行【三相功率源关源】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.779:"--发送:A1 01 04 DC 07 00 E3"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.781:",串口打开失败,请检查连接,错误信息:Unknown error"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.881:三相功率源关源成功                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.881:"=========【三相功率源关源】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.881:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.882:"=============执行【关闭应用串口】==================="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.883:"执行接口函数ini_SimuCorn_Connect_Close"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.883:callWorkFunction: ini_SimuCorn_Connect_Close                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.883:找到对应函数，进入执行                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.883:"工装板连接关闭"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.984:dll输出信息: ""                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.984:接口函数调用成功，返回的结果为 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.984:"外部传入的para：0，返回的result：0,返回的pValRet：0"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.984:"执行接口函数ini_SimuCorn_Connect_Close完成"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.985:coorIndex 0                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.985:当前流程结束                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.985:退出connect函数                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.986:"=========【关闭应用串口】结束=========="                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.986:"-----------------------------"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:12.987:工作结束,开始存储本地数据                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:13.011:三相功率源串口关闭成功                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:13.012:高低温箱串口关闭成功                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:13.016:"保存测试结果成功"                            File: Line:0 Function: Type:Debug:
+DateTime:2026-08-27 10:57:13.016:"=============执行【关闭测试项日志】==================="                            File: Line:0 Function: Type:Debug:
+====== 测试项结束: 控制类命令-本地通信模块串口通信速率协商检测 ======
+时间: 2026-08-27 10:57:13
+
