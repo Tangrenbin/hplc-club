@@ -7,6 +7,7 @@ on:
       - master
     paths:
       - "md_doc/**"
+      - "hooks/**"
       - "mkdocs.yml"
       - "requirements-docs.txt"
       - "vercel.json"
